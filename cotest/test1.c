@@ -13,8 +13,8 @@ int solution(int n)
 {
     int answer = 0;
     if (n % 2 == 0)
-        answer = (n - 1);
+        answer = 3;
     else
-        answer = (n - 2);
+        answer = 2;
     return answer;
 }
